@@ -115,7 +115,7 @@ user_number2 = int(input("Enter second number: "))
 
 if user_number1 == user_number2:
     print("numbers equal!")
-elif user_number1 < user_number1:
+elif user_number1 < user_number2:
     print(user_number1, user_number2)
 elif user_number1 > user_number2:
     print(user_number2, user_number1)

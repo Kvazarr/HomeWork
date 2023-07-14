@@ -49,8 +49,11 @@ choice = int(input(
     f"What u want? - 1)meters in miles; 2)meters in inches; 3)meters in yards;\nEnter: "))
 
 if choice == 1:
-    print(f"Mile-to-Meter conversion: {meters} meters ->  Miles {meters/1609.34}")
+    print(
+        f"Mile-to-Meter conversion: {meters} meters ->  Miles {meters/1609.34}")
 elif choice == 2:
-    print(f"Inches-to-Meter conversion: {meters} meters ->  Inches {meters*39.37}")
+    print(
+        f"Inches-to-Meter conversion: {meters} meters ->  Inches {meters*39.37}")
 elif choice == 3:
-    print(f"Yards-to-Meter conversion: {meters} meters ->  Yards {meters*1.09361}")
+    print(
+        f"Yards-to-Meter conversion: {meters} meters ->  Yards {meters*1.09361}")
